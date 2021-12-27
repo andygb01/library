@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.column {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.author {
+  margin-right: 10px;
+}
+
+.pages {
+  margin-right: 2px;
+}
+
+.library {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-spacing: 50px 5px;
+}
+

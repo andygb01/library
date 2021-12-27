@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="container">    
+      <h1>Library</h1>
+      <h3>Add a book</h3>
+
+      <div class="row">
+        <form action="">
+          <div class="column book">
+            <label for="name">Book</label>
+            <input type="text" class="books" id="name"/>
+          </div>
+          <div class="column author">
+            <label for="author">Author</label>
+            <input type="text" class="books" id="author"/>
+          </div>
+          <div class="column pages">
+            <label for="pages">Pages</label>
+            <input type="number" class="books" id="pages">
+          </div>
+          <div class="column status">
+            <label for="status">Status</label>
+            <select name="status" class="books" id="status">
+              <option value="read">Read</option>
+              <option value="not read">Not read</option>
+            </select>
+          </div>
+          <input type="submit" value="Submit" class="submitButton"/>
+        </form>
+      </div>
+
+      <div class="row">
+        <table class="column library">
+          <tr>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+          <tbody id="library-table"></tbody>
+        </table>
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
